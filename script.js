@@ -178,7 +178,7 @@ function generateressource() {
             elementres.style.backgroundImage = "url(./perle.jpg)"
         }
         if (r==="Epice") {
-            elementres.style.backgroundImage = "url(./epice.jpg)"
+            elementres.style.backgroundImage = "url(./epice.jpeg)"
         }
         if (r==="Magie") {
             elementres.style.backgroundImage = "url(./magie.jpg)"
