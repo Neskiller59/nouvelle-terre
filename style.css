@@ -35,3 +35,28 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", en
 #ressource div {
     position: absolute;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Couleur de fond du header */
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0; /* Espacement intérieur */
+    z-index: 999; /* Valeur de z-index pour rester au-dessus du reste du contenu */
+}
+
+header a:hover {
+    color: hsl(46, 78%, 46%); /* Couleur du texte au survol */
+}
+
+header a {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+header img {
+    height: 80px; /* Hauteur de l'image */
+    width: 80px; /* Largeur de l'image */
+}
