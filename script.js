@@ -55,8 +55,8 @@ document.addEventListener("mousemove", function (e){
 
 function generateLandscape() {
     // landscape.innerHTML = "";
-
-    for (let i = 0; i < 5; i++) {
+    const nbElements = parseInt(document.getElementById("nbElements").value);
+    for (let i = 0; i < nbElements; i++) {
         const element = document.createElement("div");
         const size = Math.random() * 160 + 50; // Taille aléatoire entre 10 et 50
         let left, top ;
@@ -147,10 +147,8 @@ function loadResourcesData() {
 
 
 function generateressource() {
-    // const ressource = document.getElementById("landscape");
-    // ressource.innerHTML = "";
-
-    for (let i = 0; i < 25; i++) {
+    const nbRessource = parseInt(document.getElementById("nbRessource").value);
+    for (let i = 0; i < nbRessource; i++) {
         const elementres = document.createElement("div");
         const size = 20;
         const left = Math.random() * (800 - size);
