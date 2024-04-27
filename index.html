@@ -8,6 +8,17 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <header>
+        <label for="nbElements">Nombre de joueur :</label>
+        <input type="number" id="nbElements" min="1" max="10" value="5">
+        <label for="nbRessource">Nombre de ressources :</label>
+        <select id="nbRessource">
+            <option value="15">Rare</option>
+            <option value="20">Normal</option>
+            <option value="30">Abondante</option>
+            
+        </select>
+    </header>
     
     <div id="landscape-generator">
         <button>Générer un Paysage</button>
