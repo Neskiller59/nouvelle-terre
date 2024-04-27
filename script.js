@@ -189,6 +189,7 @@ function generateressource() {
     saveResourcesData();
 }
 
+
 function getRandomColor() {
     const letters = "0123456789ABCDEF";
     let color = "#";
@@ -250,6 +251,5 @@ loadData();
 loadResourcesData();
  
 // replay.addEventListener("click", generateLandscape);
-
 
 
